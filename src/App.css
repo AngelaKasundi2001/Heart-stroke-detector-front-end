@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background: linear-gradient(to right, #6ACD9F 25%, #e0f2f1 20%, #6ACD9F 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+}
+
+.Nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  background-color: #6ACD9F;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-button:hover {
+  background-color: #4CAF50;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .Nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
